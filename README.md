@@ -1,14 +1,14 @@
 # PinInit
 
-A library for initializing digital pins with different modes on an Arduino board.
+An Arduino library for initializing digital pins with different modes.
 
 ## Description
 
-This library provides an easy and efficient way to initialize digital pins with different modes (input, output, or input_pullup) on an Arduino board. It uses a variadic template and recursive function calls to initialize an arbitrary number of pins with specified modes.
+This library provides a convenient way to initialize digital pins with different modes (input, output, or input_pullup) on an Arduino board. It uses a variadic template and recursive function calls to initialize an arbitrary number of pins with specified modes.
 
 ## Usage
 
-Here is an example of how to use PinInit:
+Here is an example of how to use the PinInit library:
 
 ``` C++
 #include <PinInit.h>
