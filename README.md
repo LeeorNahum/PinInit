@@ -2,7 +2,7 @@
 
 A library for initializing digital pins with different modes on an Arduino board.
 
-## Getting Started
+## Description
 
 This library provides an easy and efficient way to initialize digital pins with different modes (input, output, or input_pullup) on an Arduino board. It uses a variadic template and recursive function calls to initialize an arbitrary number of pins with specified modes.
 
