@@ -6,10 +6,15 @@
 
 enum PinMode {input, output, input_pullup};
 
-class PinInit {
+template <typename... PinModesAndPins>
+void PinInit(PinModesAndPins... callbacks_and_types) {
+  PinInit PinInitialize(callbacks_and_types);
+}
+
+class PinInitialize {
   public:
     template <typename... PinModesAndPins>
-    PinInit(PinModesAndPins... callbacks_and_types);
+    PinInitialize(PinModesAndPins... callbacks_and_types);
     
   private:
     template <typename... PinModesAndPins>
